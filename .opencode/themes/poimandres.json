@@ -1,0 +1,225 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "poimandresBg": "#1b1e28",
+    "poimandresFocus": "#303340",
+    "poimandresGray": "#a6accd",
+    "poimandresDarkerGray": "#767c9d",
+    "poimandresBluishGray": "#506477",
+    "poimandresOffWhite": "#e4f0fb",
+    "poimandresBrightMint": "#5DE4c7",
+    "poimandresLowerMint": "#5fb3a1",
+    "poimandresLightBlue": "#ADD7FF",
+    "poimandresLowerBlue": "#89ddff",
+    "poimandresDesaturatedBlue": "#91B4D5",
+    "poimandresHotRed": "#d0679d",
+    "poimandresPink": "#f087bd",
+    "poimandresBrightYellow": "#fffac2",
+    "poimandresBluishGrayBrighter": "#7390AA",
+    "poimandresSelection": "#717cb425",
+    "poimandresWhite": "#ffffff",
+    "poimandresBlack": "#000000"
+  },
+  "theme": {
+    "primary": {
+      "dark": "poimandresLightBlue",
+      "light": "poimandresLowerBlue"
+    },
+    "secondary": {
+      "dark": "poimandresDesaturatedBlue",
+      "light": "poimandresDesaturatedBlue"
+    },
+    "accent": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "error": {
+      "dark": "poimandresHotRed",
+      "light": "poimandresHotRed"
+    },
+    "warning": {
+      "dark": "poimandresBrightYellow",
+      "light": "poimandresBrightYellow"
+    },
+    "success": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "info": {
+      "dark": "poimandresLightBlue",
+      "light": "poimandresLowerBlue"
+    },
+    "text": {
+      "dark": "poimandresGray",
+      "light": "poimandresBluishGray"
+    },
+    "textMuted": {
+      "dark": "poimandresDarkerGray",
+      "light": "poimandresBluishGray"
+    },
+    "background": {
+      "dark": "poimandresBg",
+      "light": "poimandresOffWhite"
+    },
+    "backgroundPanel": {
+      "dark": "poimandresFocus",
+      "light": "poimandresBluishGrayBrighter"
+    },
+    "backgroundElement": {
+      "dark": "poimandresFocus",
+      "light": "poimandresGray"
+    },
+    "border": {
+      "dark": "poimandresBluishGray",
+      "light": "poimandresDarkerGray"
+    },
+    "borderActive": {
+      "dark": "poimandresDarkerGray",
+      "light": "poimandresBluishGray"
+    },
+    "borderSubtle": {
+      "dark": "poimandresBluishGray",
+      "light": "poimandresDarkerGray"
+    },
+    "diffAdded": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "diffRemoved": {
+      "dark": "poimandresHotRed",
+      "light": "poimandresHotRed"
+    },
+    "diffContext": {
+      "dark": "poimandresDarkerGray",
+      "light": "poimandresDarkerGray"
+    },
+    "diffHunkHeader": {
+      "dark": "poimandresDarkerGray",
+      "light": "poimandresDarkerGray"
+    },
+    "diffHighlightAdded": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "diffHighlightRemoved": {
+      "dark": "poimandresHotRed",
+      "light": "poimandresHotRed"
+    },
+    "diffAddedBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "diffRemovedBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "diffContextBg": {
+      "dark": "poimandresFocus",
+      "light": "poimandresBluishGrayBrighter"
+    },
+    "diffLineNumber": {
+      "dark": "poimandresBluishGray",
+      "light": "poimandresGray"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#303340",
+      "light": "#e4f0fb"
+    },
+    "markdownText": {
+      "dark": "poimandresGray",
+      "light": "poimandresBluishGray"
+    },
+    "markdownHeading": {
+      "dark": "poimandresLightBlue",
+      "light": "poimandresLowerBlue"
+    },
+    "markdownLink": {
+      "dark": "poimandresDesaturatedBlue",
+      "light": "poimandresDesaturatedBlue"
+    },
+    "markdownLinkText": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "markdownCode": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "markdownBlockQuote": {
+      "dark": "poimandresDarkerGray",
+      "light": "poimandresDarkerGray"
+    },
+    "markdownEmph": {
+      "dark": "poimandresPink",
+      "light": "poimandresPink"
+    },
+    "markdownStrong": {
+      "dark": "poimandresBrightYellow",
+      "light": "poimandresBrightYellow"
+    },
+    "markdownHorizontalRule": {
+      "dark": "poimandresDarkerGray",
+      "light": "poimandresDarkerGray"
+    },
+    "markdownListItem": {
+      "dark": "poimandresLightBlue",
+      "light": "poimandresLowerBlue"
+    },
+    "markdownListEnumeration": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "markdownImage": {
+      "dark": "poimandresDesaturatedBlue",
+      "light": "poimandresDesaturatedBlue"
+    },
+    "markdownImageText": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "markdownCodeBlock": {
+      "dark": "poimandresGray",
+      "light": "poimandresBluishGray"
+    },
+    "syntaxComment": {
+      "dark": "poimandresDarkerGray",
+      "light": "poimandresDarkerGray"
+    },
+    "syntaxKeyword": {
+      "dark": "poimandresDesaturatedBlue",
+      "light": "poimandresDesaturatedBlue"
+    },
+    "syntaxFunction": {
+      "dark": "poimandresLightBlue",
+      "light": "poimandresLowerBlue"
+    },
+    "syntaxVariable": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "syntaxString": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "syntaxNumber": {
+      "dark": "poimandresPink",
+      "light": "poimandresPink"
+    },
+    "syntaxType": {
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
+    },
+    "syntaxOperator": {
+      "dark": "poimandresDesaturatedBlue",
+      "light": "poimandresDesaturatedBlue"
+    },
+    "syntaxPunctuation": {
+      "dark": "poimandresGray",
+      "light": "poimandresBluishGray"
+    }
+  }
+}
