@@ -53,14 +53,31 @@ Most modern terminals (iTerm2, Alacritty, Kitty, Windows Terminal, GNOME Termina
 
 ## Color Palette
 
-The theme uses the poimandres color scheme:
+The theme uses the poimandres color scheme with comprehensive color definitions:
 
+### Core Colors
 - **Background**: `#1b1e28` (dark blue-gray)
+- **Focus/Panel**: `#303340` (medium gray-blue)
 - **Primary**: `#ADD7FF` (light blue)
 - **Accent**: `#5DE4c7` (bright mint)
+- **Strong Turquoise**: `#00CED1` (vibrant teal)
+
+### Semantic Colors
 - **Error**: `#d0679d` (hot red)
 - **Warning**: `#fffac2` (bright yellow)
-- **Success**: `#5DE4c7` (bright mint)
+- **Success**: `#00CED1` (strong turquoise)
+- **Info**: `#5DE4c7` (bright mint)
+
+### Text Colors
+- **Primary Text**: `#a6accd` (light gray)
+- **Muted Text**: `#767c9d` (darker gray)
+- **Off White**: `#e4f0fb` (very light blue)
+
+### Additional Colors
+- **Pink**: `#f087bd` (soft pink)
+- **Desaturated Blue**: `#91B4D5` (muted blue)
+- **Bluish Gray**: `#506477` (blue-gray)
+- **Selection**: `#717cb425` (transparent blue)
 
 ## Theme Structure
 
