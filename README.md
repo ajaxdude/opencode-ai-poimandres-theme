@@ -1,6 +1,6 @@
 # poimandres theme for opencode.ai
 
-![Color Palette](assets/dots.png)
+![Color Palette](assets/dots-small.png)
 
 A minimal, frameless dark theme for opencode.ai inspired by the [poimandres](https://github.com/drcmda/poimandres-theme) VS Code theme.
 
