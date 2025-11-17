@@ -11,26 +11,19 @@ A minimal, frameless dark theme for opencode.ai inspired by the [poimandres](htt
 
 ## Installation
 
-### Option 1: Project-specific
-
-1. Clone this repository to your project directory:
-```bash
-git clone https://github.com/ajaxdude/opencode-ai-poimandres-theme.git
-```
-
-2. The theme will be automatically available in your project
-
-### Option 2: User-wide
+### Global Installation
 
 1. Create the themes directory:
 ```bash
 mkdir -p ~/.config/opencode/themes
 ```
 
-2. Copy the theme file:
+2. Download the theme file:
 ```bash
-cp poimandres.json ~/.config/opencode/themes/
+curl -o ~/.config/opencode/themes/poimandres.json https://raw.githubusercontent.com/ajaxdude/opencode-ai-poimandres-theme/main/.opencode/themes/poimandres.json
 ```
+
+That's it! The theme is now available globally in opencode.ai.
 
 ## Usage
 
