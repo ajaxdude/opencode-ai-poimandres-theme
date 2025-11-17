@@ -8,6 +8,7 @@
     "poimandresBluishGray": "#506477",
     "poimandresOffWhite": "#e4f0fb",
     "poimandresBrightMint": "#5DE4c7",
+    "poimandresStrongTurquoise": "#00CED1",
     "poimandresLowerMint": "#5fb3a1",
     "poimandresLightBlue": "#ADD7FF",
     "poimandresLowerBlue": "#89ddff",
@@ -22,16 +23,16 @@
   },
   "theme": {
     "primary": {
-      "dark": "poimandresLightBlue",
-      "light": "poimandresLowerBlue"
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
     },
     "secondary": {
       "dark": "poimandresDesaturatedBlue",
       "light": "poimandresDesaturatedBlue"
     },
     "accent": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "error": {
       "dark": "poimandresHotRed",
@@ -42,12 +43,12 @@
       "light": "poimandresBrightYellow"
     },
     "success": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "info": {
-      "dark": "poimandresLightBlue",
-      "light": "poimandresLowerBlue"
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
     },
     "text": {
       "dark": "poimandresGray",
@@ -82,8 +83,8 @@
       "light": "poimandresDarkerGray"
     },
     "diffAdded": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "diffRemoved": {
       "dark": "poimandresHotRed",
@@ -98,8 +99,8 @@
       "light": "poimandresDarkerGray"
     },
     "diffHighlightAdded": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "diffHighlightRemoved": {
       "dark": "poimandresHotRed",
@@ -134,20 +135,20 @@
       "light": "poimandresBluishGray"
     },
     "markdownHeading": {
-      "dark": "poimandresLightBlue",
-      "light": "poimandresLowerBlue"
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
     },
     "markdownLink": {
       "dark": "poimandresDesaturatedBlue",
       "light": "poimandresDesaturatedBlue"
     },
     "markdownLinkText": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "markdownCode": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "markdownBlockQuote": {
       "dark": "poimandresDarkerGray",
@@ -166,20 +167,20 @@
       "light": "poimandresDarkerGray"
     },
     "markdownListItem": {
-      "dark": "poimandresLightBlue",
-      "light": "poimandresLowerBlue"
-    },
-    "markdownListEnumeration": {
       "dark": "poimandresBrightMint",
       "light": "poimandresBrightMint"
+    },
+    "markdownListEnumeration": {
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "markdownImage": {
       "dark": "poimandresDesaturatedBlue",
       "light": "poimandresDesaturatedBlue"
     },
     "markdownImageText": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "markdownCodeBlock": {
       "dark": "poimandresGray",
@@ -194,24 +195,24 @@
       "light": "poimandresDesaturatedBlue"
     },
     "syntaxFunction": {
-      "dark": "poimandresLightBlue",
-      "light": "poimandresLowerBlue"
+      "dark": "poimandresBrightMint",
+      "light": "poimandresBrightMint"
     },
     "syntaxVariable": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "syntaxString": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "syntaxNumber": {
       "dark": "poimandresPink",
       "light": "poimandresPink"
     },
     "syntaxType": {
-      "dark": "poimandresBrightMint",
-      "light": "poimandresBrightMint"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
     },
     "syntaxOperator": {
       "dark": "poimandresDesaturatedBlue",
@@ -219,6 +220,30 @@
     },
     "syntaxPunctuation": {
       "dark": "poimandresGray",
+      "light": "poimandresBluishGray"
+    },
+    "inputBackground": {
+      "dark": "poimandresBg",
+      "light": "poimandresOffWhite"
+    },
+    "InputBorder": {
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
+    },
+    "InputBorderActive": {
+      "dark": "poimandresLowerMint",
+      "light": "poimandresLowerMint"
+    },
+    "inputPrompt": {
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
+    },
+    "inputCursor": {
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresStrongTurquoise"
+    },
+    "inputText": {
+      "dark": "poimandresOffWhite",
       "light": "poimandresBluishGray"
     }
   }
