@@ -55,18 +55,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| THEME-01 | Pending | Pending |
-| THEME-02 | Pending | Pending |
-| THEME-03 | Pending | Pending |
-| THEME-04 | Pending | Pending |
-| SYNTAX-01 | Pending | Pending |
-| DOCS-01 | Pending | Pending |
-| UX-01 | Pending | Pending |
+| THEME-01 | Phase 2 | Pending |
+| THEME-02 | Phase 1 | Pending |
+| THEME-03 | Phase 1 | Pending |
+| THEME-04 | Phase 1 | Pending |
+| SYNTAX-01 | Phase 1 | Pending |
+| DOCS-01 | Phase 2 | Pending |
+| UX-01 | Phase 2 | Pending |
 
 **Coverage:**
 - v1 requirements: 7 total
-- Mapped to phases: 0
-- Unmapped: 7 ⚠️
+- Mapped to phases: 7
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2025-02-09*
