@@ -121,15 +121,15 @@ function generateTurquoisePalette(baseColor: string): Record<string, string> {
   const targetSaturation = hsl.s;
 
   // Lightness values for 7 shades (lightest to darkest)
-  // These provide good perceptual spacing
+  // Ensuring ≥10% difference between adjacent shades for visual distinction
   const lightnessLevels: Record<string, number> = {
     '50': 90,   // Lightest
-    '100': 80,  // Very light
-    '300': 60,  // Light
-    '400': 41,  // Base (original)
-    '500': 35,  // Dark
-    '700': 25,  // Very dark
-    '900': 15,  // Darkest
+    '100': 80,  // Very light (diff: 10%)
+    '300': 60,  // Light (diff: 20%)
+    '400': 41,  // Base (original) (diff: 19%)
+    '500': 31,  // Dark (diff: 10%)
+    '700': 21,  // Very dark (diff: 10%)
+    '900': 11,  // Darkest (diff: 10%)
   };
 
   const palette: Record<string, string> = {};
