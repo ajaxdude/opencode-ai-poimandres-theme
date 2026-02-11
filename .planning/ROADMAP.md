@@ -25,18 +25,22 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 **Requirements**: THEME-02, THEME-03, THEME-04, SYNTAX-01
 
+**Scope**: This phase focuses on dark theme color system and validation only. Theme toggle functionality (dark/light switching, user preferences) is **Phase 2 work** (UX-01).
+
 **Success Criteria** (what must be TRUE):
   1. Dark theme variant works correctly with extended turquoise palette
   2. All text and UI elements meet WCAG AA contrast requirements (4.5:1 for normal text, 3:1 for large text)
   3. Turquoise palette provides 5-7 distinct shades for visual hierarchy (darkest to lightest)
   4. Theme variant file follows poimandres.json structure for OpenCode compatibility
+  5. Semantic tokens defined and validated (core + extensions + components)
+  6. Syntax highlighting documented for multiple languages (JS, TS, Python, HTML, CSS, JSON)
 
 **Plans**: 3
 
 Plans:
 - [ ] 01-01: Generate extended turquoise palette with 5-7 shades and validation scripts
-- [ ] 01-02: Create turquoise-expanded theme variant file with integrated palette
-- [ ] 01-03: Validate WCAG AA compliance and generate contrast report
+- [ ] 01-02: Create turquoise-expanded theme variant file with integrated palette and validate semantic tokens
+- [ ] 01-03: Validate WCAG AA compliance, generate contrast report, and document syntax highlighting
 
 ### Phase 2: Light Theme & UX
 
