@@ -35,12 +35,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. Semantic tokens defined and validated (core + extensions + components)
   6. Syntax highlighting documented for multiple languages (JS, TS, Python, HTML, CSS, JSON)
 
-**Plans**: 3
+**Plans**: 4
 
 Plans:
 - [ ] 01-01: Generate extended turquoise palette with 5-7 shades and validation scripts
 - [ ] 01-02: Create turquoise-expanded theme variant file with integrated palette and validate semantic tokens
 - [ ] 01-03: Validate WCAG AA compliance, generate contrast report, and document syntax highlighting
+- [ ] 01-04: Create WCAG AA compliant variant fixing all 12 failing color pairs (gap closure)
 
 ### Phase 2: Light Theme & UX
 
