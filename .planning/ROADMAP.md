@@ -26,17 +26,17 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Requirements**: THEME-02, THEME-03, THEME-04, SYNTAX-01
 
 **Success Criteria** (what must be TRUE):
-  1. Dark theme variant works correctly across all supported programming languages
+  1. Dark theme variant works correctly with extended turquoise palette
   2. All text and UI elements meet WCAG AA contrast requirements (4.5:1 for normal text, 3:1 for large text)
   3. Turquoise palette provides 5-7 distinct shades for visual hierarchy (darkest to lightest)
-  4. Semantic token colors are defined for all major categories (background, foreground, border, primary, secondary, accent, error, warning, success, info)
+  4. Theme variant file follows poimandres.json structure for OpenCode compatibility
 
-**Plans**: TBD
+**Plans**: 3
 
 Plans:
-- [ ] 01-01: [Brief description of first plan]
-- [ ] 01-02: [Brief description of second plan]
-- [ ] 01-03: [Brief description of third plan]
+- [ ] 01-01: Generate extended turquoise palette with 5-7 shades and validation scripts
+- [ ] 01-02: Create turquoise-expanded theme variant file with integrated palette
+- [ ] 01-03: Validate WCAG AA compliance and generate contrast report
 
 ### Phase 2: Light Theme & UX
 
@@ -65,5 +65,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Dark Theme Foundation | 0/3 | Not started | - |
+| 1. Dark Theme Foundation | 0/3 | Ready to execute | - |
 | 2. Light Theme & UX | 0/2 | Not started | - |
