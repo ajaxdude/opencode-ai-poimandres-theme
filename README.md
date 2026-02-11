@@ -79,15 +79,38 @@ The theme uses the poimandres color scheme with comprehensive color definitions:
 - **Bluish Gray**: `#506477` (blue-gray)
 - **Selection**: `#717cb425` (transparent blue)
 
+## Theme Variants
+
+This theme is available in multiple variants with different trade-offs:
+
+### poimandres.json (Original)
+- **Compliance**: 50% WCAG AA (12/24 pairs)
+- **Aesthetic**: 100% faithful to original Poimandres
+- **Use when**: Visual fidelity is priority, dark mode only usage
+
+### poimandres-turquoise-expanded.json
+- **Compliance**: 50% WCAG AA (12/24 pairs)
+- **Aesthetic**: 100% faithful to original with expanded turquoise palette
+- **Use when**: Visual fidelity is priority, need more turquoise shades in dark mode
+
+### poimandres-accessible.json ⭐ Recommended
+- **Compliance**: 100% WCAG AA (24/24 pairs)
+- **Aesthetic**: ~90% faithful (minimal dark mode changes, moderate light mode changes)
+- **Use when**: Accessibility is required, light mode used, professional/corporate environments
+
+**Recommendation**: Use `poimandres-accessible.json` for production environments where WCAG AA compliance is important.
+
 ## Theme Structure
 
 ```
 .opencode/themes/
-└── poimandres.json    # Main theme file
+├── poimandres.json                   # Original theme
+├── poimandres-turquoise-expanded.json # Expanded palette (50% WCAG AA)
+└── poimandres-accessible.json          # Accessible variant (100% WCAG AA) ⭐
 ```
 
-The theme follows the opencode.ai JSON theme format with:
-- Color definitions in the `defs` section
+The theme follows opencode.ai JSON theme format with:
+- Color definitions in `defs` section
 - Dark/light variants for all colors
 - Semantic color mapping for UI elements and syntax highlighting
 
