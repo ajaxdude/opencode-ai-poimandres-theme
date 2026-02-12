@@ -22,7 +22,11 @@ mkdir -p ~/.config/opencode/themes
 
 2. Download the theme file:
 ```bash
+# Original theme
 curl -o ~/.config/opencode/themes/poimandres.json https://raw.githubusercontent.com/ajaxdude/opencode-ai-poimandres-theme/main/.opencode/themes/poimandres.json
+
+# Light theme variant
+curl -o ~/.config/opencode/themes/poimandres-light.json https://raw.githubusercontent.com/ajaxdude/opencode-ai-poimandres-theme/main/.opencode/themes/poimandres-light.json
 ```
 
 That's it! The theme is now available globally in opencode.ai.
@@ -32,7 +36,7 @@ That's it! The theme is now available globally in opencode.ai.
 ### Using the theme
 
 1. Open opencode.ai
-2. Type `/theme` and select `poimandres`
+2. Type `/theme` and select a theme variant (`poimandres`, `poimandres-accessible`, or `poimandres-light`)
 3. Or add it to your `opencode.json` config:
 
 ```json
@@ -50,6 +54,15 @@ For best results, ensure your terminal supports **truecolor** (24-bit color):
 - Enable if needed: `export COLORTERM=truecolor`
 
 Most modern terminals (iTerm2, Alacritty, Kitty, Windows Terminal, GNOME Terminal) support this by default.
+
+### Switching Between Variants
+
+Type `/theme` in opencode.ai and select from the available variants:
+- `poimandres` - Original dark theme
+- `poimandres-accessible` - WCAG AA compliant variant (recommended)
+- `poimandres-light` - Light theme variant
+
+Theme selections persist across opencode.ai sessions, so your choice will be remembered.
 
 ## Color Palette
 
@@ -79,6 +92,44 @@ The theme uses the poimandres color scheme with comprehensive color definitions:
 - **Bluish Gray**: `#506477` (blue-gray)
 - **Selection**: `#717cb425` (transparent blue)
 
+## Color Tokens (All Variants)
+
+| Token Name | poimandres.json (Original) | poimandres-accessible.json | poimandres-light.json |
+|------------|---------------------------|---------------------------|----------------------|
+| poimandresBg | #1b1e28 | #1b1e28 | #1b1e28 |
+| poimandresFocus | #303340 | #303340 | #303340 |
+| poimandresGray | #a6accd | #a6accd | #a6accd |
+| poimandresDarkerGray | #767c9d | #767c9d | #767c9d |
+| poimandresBluishGray | #506477 | #506477 | #506477 |
+| poimandresOffWhite | #e4f0fb | #e4f0fb | #e4f0fb |
+| poimandresBrightMint | #5DE4c7 | #5DE4c7 | #5DE4c7 |
+| poimandresStrongTurquoise | #00CED1 | #00CED1 | #00CED1 |
+| poimandresLowerMint | #5fb3a1 | #5fb3a1 | #5fb3a1 |
+| poimandresLightBlue | #ADD7FF | #ADD7FF | #ADD7FF |
+| poimandresLowerBlue | #89ddff | #89ddff | #89ddff |
+| poimandresDesaturatedBlue | #91B4D5 | #91B4D5 | #91B4D5 |
+| poimandresHotRed | #d0679d | #d0679d | #d0679d |
+| poimandresPink | #f087bd | #f087bd | #f087bd |
+| poimandresBrightYellow | #fffac2 | #fffac2 | #fffac2 |
+| poimandresBluishGrayBrighter | #7390AA | #7390AA | #7390AA |
+| poimandresSelection | #717cb425 | #717cb425 | #717cb425 |
+| poimandresWhite | #ffffff | #ffffff | #ffffff |
+| poimandresBlack | #000000 | #000000 | #000000 |
+| poimandresTurquoise400 | - | #00ced1 | #00ced1 |
+| poimandresTurquoise500 | - | #009b9e | #009b9e |
+| poimandresGrayAccessibleLight | - | #1f272f | #1f272f |
+| poimandresPrimaryAccessibleLight | - | #157a64 | #157a64 |
+| poimandresSecondaryAccessibleLight | - | #3d70a1 | #3d70a1 |
+| poimandresAccentAccessibleLight | - | #00797c | #00797c |
+| poimandresErrorAccessibleLight | - | #44152e | #44152e |
+| poimandresWarningAccessibleLight | - | #3f1538 | #3f1538 |
+| poimandresInputCursorAccessibleLight | - | #00999c | #00999c |
+| poimandresTextMutedAccessibleDark1 | - | #7e84a3 | #7e84a3 |
+| poimandresTextMutedAccessibleDark2 | - | #959ab4 | #959ab4 |
+| poimandresTextMutedAccessibleLightPanel | - | #3a4552 | #3a4552 |
+| poimandresErrorAccessibleDark | - | #d87fac | #d87fac |
+| poimandresBorderAccessibleDark | - | #556b7f | #556b7f |
+
 ## Theme Variants
 
 This theme is available in multiple variants with different trade-offs:
@@ -98,7 +149,21 @@ This theme is available in multiple variants with different trade-offs:
 - **Aesthetic**: ~90% faithful (minimal dark mode changes, moderate light mode changes)
 - **Use when**: Accessibility is required, light mode used, professional/corporate environments
 
-**Recommendation**: Use `poimandres-accessible.json` for production environments where WCAG AA compliance is important.
+### poimandres-light.json
+- **Compliance**: 100% WCAG AA (24/24 pairs)
+- **Aesthetic**: 100% faithful to Poimandres (derived from validated accessible colors)
+- **Use when**: Light mode is preferred, accessibility required
+
+**Recommendation**: Use `poimandres-accessible.json` for production environments where WCAG AA compliance is important. Use `poimandres-light.json` for light mode preference.
+
+## Theme Switching
+
+Type `/theme` in opencode.ai and select from the available variants:
+- `poimandres` - Original dark theme
+- `poimandres-accessible` - WCAG AA compliant variant (recommended)
+- `poimandres-light` - Light theme variant
+
+Theme selections persist across opencode.ai sessions, so your choice will be remembered.
 
 ## Theme Structure
 
@@ -106,7 +171,8 @@ This theme is available in multiple variants with different trade-offs:
 .opencode/themes/
 ├── poimandres.json                   # Original theme
 ├── poimandres-turquoise-expanded.json # Expanded palette (50% WCAG AA)
-└── poimandres-accessible.json          # Accessible variant (100% WCAG AA) ⭐
+├── poimandres-accessible.json          # Accessible variant (100% WCAG AA) ⭐
+└── poimandres-light.json               # Light theme variant (100% WCAG AA)
 ```
 
 The theme follows opencode.ai JSON theme format with:
