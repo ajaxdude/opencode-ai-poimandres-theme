@@ -1,142 +1,137 @@
 # WCAG AA Contrast Validation Report
 
-**Date:** 2026-02-11
+**Date:** 2026-02-13
 **Theme:** poimandres-turquoise-expanded.json
 
-## Dark Mode Validation
+Dark Mode Validation
+-------------------
 
 ### Text on Background
-- primary.dark (#00ced1) on background.dark (#1b1e28): **8.51:1** ✓ (required 4.5:1)
-- secondary.dark (#91b4d5) on background.dark (#1b1e28): **7.68:1** ✓ (required 4.5:1)
-- accent.dark (#009b9e) on background.dark (#1b1e28): **4.9:1** ✓ (required 4.5:1)
-- text.dark (#a6accd) on background.dark (#1b1e28): **7.45:1** ✓ (required 4.5:1)
-- textMuted.dark (#767c9d) on background.dark (#1b1e28): **4.07:1** ✗ (required 4.5:1)
+  ✓ primary on background (dark): 8.51:1 (required 4.5:1)
+  ✓ secondary on background (dark): 7.68:1 (required 4.5:1)
+  ✓ accent on background (dark): 4.9:1 (required 4.5:1)
+  ✓ text on background (dark): 7.45:1 (required 4.5:1)
 
 ### Text on Panel
-- text.dark (#a6accd) on backgroundPanel.dark (#303340): **5.62:1** ✓ (required 4.5:1)
-- textMuted.dark (#767c9d) on backgroundPanel.dark (#303340): **3.07:1** ✗ (required 4.5:1)
-- error.dark (#d0679d) on backgroundPanel.dark (#303340): **3.65:1** ✗ (required 4.5:1)
-- warning.dark (#fffac2) on backgroundPanel.dark (#303340): **11.78:1** ✓ (required 4.5:1)
+  ✓ text on panel (dark): 5.62:1 (required 4.5:1)
+  ✗ textMuted on panel (dark): 3.07:1 (required 4.5:1)
+  ✗ error on panel (dark): 3.65:1 (required 4.5:1)
+  ✓ warning on panel (dark): 11.78:1 (required 4.5:1)
 
 ### UI Elements
-- border.dark (#506477) on background.dark (#1b1e28): **2.72:1** ✗ (required 3:1)
-- borderActive.dark (#767c9d) on background.dark (#1b1e28): **4.07:1** ✓ (required 3:1)
-- inputCursor.dark (#00ced1) on inputBackground.dark (#1b1e28): **8.51:1** ✓ (required 3:1)
+  ✗ UI: border on background (dark): 2.72:1 (required 3:1)
+  ✓ UI: borderActive on background (dark): 4.07:1 (required 3:1)
+  ✓ UI: inputCursor on inputBackground (dark): 8.51:1 (required 3:1)
 
-## Light Mode Validation
+
+Light Mode Validation
+---------------------
 
 ### Text on Background
-- primary.light (#5de4c7) on background.light (#e4f0fb): **1.36:1** ✗ (required 4.5:1)
-- secondary.light (#91b4d5) on background.light (#e4f0fb): **1.87:1** ✗ (required 4.5:1)
-- accent.light (#00ced1) on background.light (#e4f0fb): **1.69:1** ✗ (required 4.5:1)
-- text.light (#506477) on background.light (#e4f0fb): **5.29:1** ✓ (required 4.5:1)
-- textMuted.light (#506477) on background.light (#e4f0fb): **3.53:1** ✗ (required 4.5:1)
+  ✗ primary on background (light): 1.36:1 (required 4.5:1)
+  ✗ secondary on background (light): 1.87:1 (required 4.5:1)
+  ✗ accent on background (light): 1.69:1 (required 4.5:1)
+  ✓ text on background (light): 5.29:1 (required 4.5:1)
 
 ### Text on Panel
-- text.light (#506477) on backgroundPanel.light (#7390aa): **1.84:1** ✗ (required 4.5:1)
-- textMuted.light (#506477) on backgroundPanel.light (#7390aa): **1.84:1** ✗ (required 4.5:1)
-- error.light (#d0679d) on backgroundPanel.light (#7390aa): **1.03:1** ✗ (required 4.5:1)
-- warning.light (#fffac2) on backgroundPanel.light (#7390aa): **3.13:1** ✗ (required 4.5:1)
+  ✗ text on panel (light): 1.84:1 (required 4.5:1)
+  ✗ textMuted on panel (light): 1.84:1 (required 4.5:1)
+  ✗ error on panel (light): 1.03:1 (required 4.5:1)
+  ✗ warning on panel (light): 3.13:1 (required 4.5:1)
 
 ### UI Elements
-- border.light (#767c9d) on background.light (#e4f0fb): **3.53:1** ✓ (required 3:1)
-- borderActive.light (#506477) on background.light (#e4f0fb): **5.29:1** ✓ (required 3:1)
-- inputCursor.light (#00ced1) on inputBackground.light (#e4f0fb): **1.69:1** ✗ (required 3:1)
+  ✓ UI: border on background (light): 3.53:1 (required 3:1)
+  ✓ UI: borderActive on background (light): 5.29:1 (required 3:1)
+  ✗ UI: inputCursor on inputBackground (light): 1.69:1 (required 3:1)
 
-## Summary
 
-| Metric | Value |
-|--------|--------|
-| Total pairs tested | 24 |
-| Passed | 12 |
-| Failed | 12 |
-| WCAG AA compliance | 50% |
+Summary
+-------
+Total pairs tested: 24
+Passed: 12
+Failed: 12
+WCAG AA compliance: 50%
 
-## Failing Pairs
 
-### Dark Mode Failures
+Failing Pairs
+-------------
+- primary on background (light): 1.36:1 < 4.5:1
+  Foreground: #5DE4c7
+  Background: #e4f0fb
+  Recommendation: Critical: Increase foreground brightness or darken background significantly
 
-1. **textMuted.dark on background.dark** - 4.07:1 < 4.5:1
-   - Foreground: #767c9d
-   - Background: #1b1e28
-   - Recommendation: Minor adjustment needed: increase contrast by at least 0.4:1
+- secondary on background (light): 1.87:1 < 4.5:1
+  Foreground: #91B4D5
+  Background: #e4f0fb
+  Recommendation: Critical: Increase foreground brightness or darken background significantly
 
-2. **textMuted.dark on backgroundPanel.dark** - 3.07:1 < 4.5:1
-   - Foreground: #767c9d
-   - Background: #303340
-   - Recommendation: Adjust foreground or background to improve contrast by at least 1.4:1
+- accent on background (light): 1.69:1 < 4.5:1
+  Foreground: #00CED1
+  Background: #e4f0fb
+  Recommendation: Critical: Increase foreground brightness or darken background significantly
 
-3. **error.dark on backgroundPanel.dark** - 3.65:1 < 4.5:1
-   - Foreground: #d0679d
-   - Background: #303340
-   - Recommendation: Adjust foreground or background to improve contrast by at least 0.9:1
+- textMuted on background (dark): 4.07:1 < 4.5:1
+  Foreground: #767c9d
+  Background: #1b1e28
+  Recommendation: Minor adjustment needed: increase contrast by 0.4:1
 
-4. **border.dark on background.dark** - 2.72:1 < 3:1
-   - Foreground: #506477
-   - Background: #1b1e28
-   - Recommendation: Minor adjustment needed: increase contrast by at least 0.3:1
+- text on panel (light): 1.84:1 < 4.5:1
+  Foreground: #506477
+  Background: #7390AA
+  Recommendation: Critical: Increase foreground brightness or darken background significantly
 
-### Light Mode Failures
+- textMuted on panel (dark): 3.07:1 < 4.5:1
+  Foreground: #767c9d
+  Background: #303340
+  Recommendation: Adjust foreground or background to improve contrast by at least 1.4:1
 
-1. **primary.light on background.light** - 1.36:1 < 4.5:1
-   - Foreground: #5de4c7
-   - Background: #e4f0fb
-   - Recommendation: Critical: Increase foreground brightness or darken background significantly
+- textMuted on panel (light): 1.84:1 < 4.5:1
+  Foreground: #506477
+  Background: #7390AA
+  Recommendation: Critical: Increase foreground brightness or darken background significantly
 
-2. **secondary.light on background.light** - 1.87:1 < 4.5:1
-   - Foreground: #91b4d5
-   - Background: #e4f0fb
-   - Recommendation: Critical: Increase foreground brightness or darken background significantly
+- error on panel (dark): 3.65:1 < 4.5:1
+  Foreground: #d0679d
+  Background: #303340
+  Recommendation: Adjust foreground or background to improve contrast by at least 0.9:1
 
-3. **accent.light on background.light** - 1.69:1 < 4.5:1
-   - Foreground: #00ced1
-   - Background: #e4f0fb
-   - Recommendation: Critical: Increase foreground brightness or darken background significantly
+- error on panel (light): 1.03:1 < 4.5:1
+  Foreground: #d0679d
+  Background: #7390AA
+  Recommendation: Critical: Increase foreground brightness or darken background significantly
 
-4. **textMuted.light on background.light** - 3.53:1 < 4.5:1
-   - Foreground: #506477
-   - Background: #e4f0fb
-   - Recommendation: Adjust foreground or background to improve contrast by at least 1.0:1
+- warning on panel (light): 3.13:1 < 4.5:1
+  Foreground: #fffac2
+  Background: #7390AA
+  Recommendation: Adjust foreground or background to improve contrast by at least 1.4:1
 
-5. **text.light on backgroundPanel.light** - 1.84:1 < 4.5:1
-   - Foreground: #506477
-   - Background: #7390aa
-   - Recommendation: Critical: Increase foreground brightness or darken background significantly
+- UI: border on background (dark): 2.72:1 < 3:1
+  Foreground: #506477
+  Background: #1b1e28
+  Recommendation: Minor adjustment needed: increase contrast by 0.3:1
 
-6. **textMuted.light on backgroundPanel.light** - 1.84:1 < 4.5:1
-   - Foreground: #506477
-   - Background: #7390aa
-   - Recommendation: Critical: Increase foreground brightness or darken background significantly
-
-7. **error.light on backgroundPanel.light** - 1.03:1 < 4.5:1
-   - Foreground: #d0679d
-   - Background: #7390aa
-   - Recommendation: Critical: Increase foreground brightness or darken background significantly
-
-8. **warning.light on backgroundPanel.light** - 3.13:1 < 4.5:1
-   - Foreground: #fffac2
-   - Background: #7390aa
-   - Recommendation: Adjust foreground or background to improve contrast by at least 1.4:1
-
-9. **inputCursor.light on inputBackground.light** - 1.69:1 < 3:1
-   - Foreground: #00ced1
-   - Background: #e4f0fb
-   - Recommendation: Critical: Increase foreground brightness or darken background significantly
+- UI: inputCursor on inputBackground (light): 1.69:1 < 3:1
+  Foreground: #00CED1
+  Background: #e4f0fb
+  Recommendation: Critical: Increase foreground brightness or darken background significantly
 
 ## Comparison with Original Theme
 
-Original theme (poimandres.json) compliance: 50% (12/24 pairs)
-New variant (poimandres-turquoise-expanded.json) compliance: 50% (12/24 pairs)
-Change: No change - same compliance as original theme
+| Theme | Total Pairs | Passed | Failed | Compliance |
+|-------|-------------|--------|--------|------------|
+| poimandres.json (original) | 24 | 12 | 12 | 50% |
+| poimandres-turquoise-expanded.json (variant) | 24 | 12 | 12 | 50% |
 
 **Analysis:**
-- The turquoise-expanded variant maintains the same contrast compliance as the original theme
-- All dark mode text/color pairings with the expanded turquoise palette pass WCAG AA (primary, accent, info)
-- Light mode failures are identical to original theme (unchanged light mode)
-- Dark mode failures are inherited from original theme (textMuted, error on panel, border on background)
+- The turquoise-expanded variant maintains the same WCAG AA compliance level as the original theme
+- All 12 failing pairs are identical between the original and variant themes
+- This is expected because both themes share the same base color definitions
+- The variant introduces new turquoise palette colors (#poimandresTurquoise50 through #poimandresTurquoise900) but these are not used in the core theme categories tested
+- The expanded turquoise colors are available for future use but don't impact current accessibility
 
-**Note:** The expanded turquoise palette successfully replaces the original mint and turquoise colors in dark mode while maintaining the same level of accessibility compliance. The failures identified are pre-existing issues in the original theme that are out of scope for this variant (they would be addressed in a future theme refinement phase).
+**Key Finding:**
+The primary accessibility issues are in the light mode where most color pairs have critically low contrast (1.03:1 to 1.87:1). Dark mode performs much better with only 4 failures out of 11 pairs tested.
 
 ---
 
-*Generated by scripts/validate-contrast.ts*
+*Generated by scripts/validate-contrast.js*
