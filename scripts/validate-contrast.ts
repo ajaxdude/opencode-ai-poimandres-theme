@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env node
 
 /**
  * WCAG AA Contrast Validation Script
@@ -17,8 +17,8 @@
  *   2: Invalid input or error
  */
 
-import * as fs from 'fs';
-import * as path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 interface ColorDefs {
   [key: string]: string;
@@ -47,7 +47,7 @@ interface ColorPair {
 /**
  * Parse hex color to RGB values
  */
-function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
+function hexToRgb(hex) {
   // Handle 3-digit hex
   if (/^#?([a-f\d])([a-f\d])([a-f\d])$/i.test(hex)) {
     return {

@@ -12,7 +12,7 @@
     "poimandresLowerMint": "#5fb3a1",
     "poimandresLightBlue": "#ADD7FF",
     "poimandresLowerBlue": "#89ddff",
-    "poimandresDesaturatedBlue": "#91B4D5",
+    "poimandresDesaturatedGreen": "#7AC6B6",
     "poimandresHotRed": "#d0679d",
     "poimandresPink": "#f087bd",
     "poimandresBrightYellow": "#fffac2",
@@ -27,8 +27,8 @@
       "light": "poimandresBrightMint"
     },
     "secondary": {
-      "dark": "poimandresDesaturatedBlue",
-      "light": "poimandresDesaturatedBlue"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresDesaturatedGreen"
     },
     "accent": {
       "dark": "poimandresStrongTurquoise",
@@ -139,8 +139,8 @@
       "light": "poimandresBrightMint"
     },
     "markdownLink": {
-      "dark": "poimandresDesaturatedBlue",
-      "light": "poimandresDesaturatedBlue"
+      "dark": "poimandresDesaturatedGreen",
+      "light": "poimandresDesaturatedGreen"
     },
     "markdownLinkText": {
       "dark": "poimandresStrongTurquoise",
@@ -175,8 +175,8 @@
       "light": "poimandresStrongTurquoise"
     },
     "markdownImage": {
-      "dark": "poimandresDesaturatedBlue",
-      "light": "poimandresDesaturatedBlue"
+      "dark": "poimandresDesaturatedGreen",
+      "light": "poimandresDesaturatedGreen"
     },
     "markdownImageText": {
       "dark": "poimandresStrongTurquoise",
@@ -191,8 +191,8 @@
       "light": "poimandresDarkerGray"
     },
     "syntaxKeyword": {
-      "dark": "poimandresDesaturatedBlue",
-      "light": "poimandresDesaturatedBlue"
+      "dark": "poimandresDesaturatedGreen",
+      "light": "poimandresDesaturatedGreen"
     },
     "syntaxFunction": {
       "dark": "poimandresBrightMint",
@@ -215,8 +215,8 @@
       "light": "poimandresStrongTurquoise"
     },
     "syntaxOperator": {
-      "dark": "poimandresDesaturatedBlue",
-      "light": "poimandresDesaturatedBlue"
+      "dark": "poimandresDesaturatedGreen",
+      "light": "poimandresDesaturatedGreen"
     },
     "syntaxPunctuation": {
       "dark": "poimandresGray",
