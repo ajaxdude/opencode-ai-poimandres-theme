@@ -2,7 +2,6 @@
 
 A minimal, frameless dark theme for OpenCode AI inspired by the [poimandres](https://github.com/drcmda/poimandres-theme) VS Code theme.
 
-![Color Palette](assets/dots-small.png)
 
 ## Features
 
@@ -67,6 +66,8 @@ This theme is available in multiple variants with different trade-offs:
 
 The original Poimandres theme for OpenCode AI — a faithful dark mode adaptation of the VS Code theme.
 
+![Color Palette](.opencode/themes/poimandres-dots.png)
+
 | Aspect | Details |
 |--------|---------|
 | **Color Palette** | 19 base colors from the original Poimandres palette |
@@ -86,6 +87,8 @@ The original Poimandres theme for OpenCode AI — a faithful dark mode adaptatio
 
 Extended palette variant that adds 7 new turquoise shades for more color variety in dark mode.
 
+![Color Palette](.opencode/themes/poimandres-turquoise-expanded-dots.png)
+
 | Aspect | Details |
 |--------|---------|
 | **Color Palette** | 29 colors (19 base + 7 turquoise shades) |
@@ -104,6 +107,8 @@ Extended palette variant that adds 7 new turquoise shades for more color variety
 ### poimandres-accessible.json ⭐ Recommended
 
 Fully WCAG AA compliant variant that ensures accessibility for all users.
+
+![Color Palette](.opencode/themes/poimandres-accessible-dots.png)
 
 | Aspect | Details |
 |--------|---------|
