@@ -47,8 +47,8 @@
       "light": "poimandresPrimaryAccessibleLight"
     },
     "secondary": {
-      "dark": "poimandresDesaturatedBlue",
-      "light": "poimandresSecondaryAccessibleLight"
+      "dark": "poimandresStrongTurquoise",
+      "light": "poimandresDesaturatedGreen"
     },
     "accent": {
       "dark": "poimandresTurquoise500",
