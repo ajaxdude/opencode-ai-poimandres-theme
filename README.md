@@ -40,7 +40,7 @@ That's it! The themes are now available globally in OpenCode AI.
 
 1. Open OpenCode AI
 2. Type `/theme` and select a theme variant
-3. Or add it to your `opencode.json` config:
+3. Or add it to your `tui.json` config:
 
 ```json
 {
